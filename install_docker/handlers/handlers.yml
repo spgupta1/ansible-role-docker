@@ -1,0 +1,7 @@
+---
+handlers:
+          - name: restart docker daemon service
+            service:
+                    name: docker
+                    state: restarted
+
